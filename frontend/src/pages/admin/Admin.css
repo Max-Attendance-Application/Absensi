@@ -1,0 +1,98 @@
+.breadcrumbs {
+    font-size: 12px;
+}
+.breadcrumbs > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.active-breadcrumbs {
+    color: #bf89bf !important;
+}
+
+.dashboard-section {
+    padding: 20px;
+    background-color: white;
+}
+
+.section-card {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* gap: 30px; */
+}
+
+.users-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #c2c0FF;
+    border-radius: 100%;
+
+}
+
+.section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+table  {
+    width: 100%;
+}
+table td,
+table th {
+    padding: 10px;
+}
+table.tb-rounded tbody tr:first-child td:first-child {border-top-left-radius: 10px;}
+table.tb-rounded tbody tr:first-child td:last-child {border-top-right-radius: 10px;}
+table.tb-rounded tbody tr:last-child td:first-child {border-bottom-left-radius: 10px;}
+table.tb-rounded tbody tr:last-child td:last-child {border-bottom-right-radius: 10px;}
+.tr-purple {background-color: #F3D2FB;}
+
+.form-absen {
+    padding: 20px 0 0 0 !important;
+    margin: 0 !important;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.form-absen > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.absen-card {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.input-nama-id::placeholder {
+    color: #888 !important;
+}
+
+input[name='bulan'] {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 50px;
+}
+select[name='periode'] {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 100px;
+}
+
+input[name='bulan']::placeholder, 
+input[name='periode']::placeholder {
+    color: #aaa;
+}

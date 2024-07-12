@@ -1,0 +1,84 @@
+.page-container {
+    background-image: url('../../assets/images/background.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 50px 0 50px;
+}
+
+/* .side-image-container {
+    width: 100%;
+} */
+
+.form-container {
+    width: 40%;
+    background-color: #702E86cc;
+    border-radius: 25px 25px 0 0;
+    /* gap: 10px; */
+}
+
+form {
+    padding: 0 50px !important;
+}
+
+.input-email,
+.input-pw {
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    outline: none;
+    width: 100%;
+}
+.input-pw>input {
+    background: none !important;
+    border: none !important;
+    outline: none;
+    color: white;
+}
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.submit-form {
+    background-color: #562266 !important;
+    border: none !important;
+    color: white !important;
+    border-radius: 10px !important;
+    padding: 10px 20px !important;
+    text-decoration: none;
+}
+
+.forgot-pin {
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 12px;
+}
+
+.forgot-pin:hover {
+    text-decoration: underline !important;
+}
+
+.vercode-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.vercode-container > div {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 50px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}

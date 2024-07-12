@@ -1,0 +1,19 @@
+.master-layout {
+    height: 100dvh;
+    overflow-y: hidden;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.activelink,
+.navlink:hover {
+    background-color: #A14FBC !important;
+}
